@@ -1,0 +1,63 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px; 
+    width: 814px;
+}
+
+h1 {
+    color: #FF4F59;
+    font-size: 134px;
+    font-weight: bolder;
+    font-family: helvetica;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+/* CLASSES */
+.header {
+    font-size: 17px;
+    font-weight: bolder;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* IDs */
+#home-a {
+    color: #FF4F59;
+    padding-right: 1em;
+}
+
+#menu-a {
+    padding-right: 1em;
+}
+
+#tel-a {
+    display: flex;
+}
+
+#brand-name {
+    position: absolute;
+    margin-left: -6px;
+}
+
+#img-box {
+    display: flex;
+    height: 530px;
+    align-items: flex-end;
+    position: relative;
+    z-index: -1;
+}
+
+#club-h2{
+    margin-top: -50px;
+}
