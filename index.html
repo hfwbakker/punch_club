@@ -3,6 +3,8 @@
     <head>
         <title>punch club</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+
     </head>
     <body>
         <div class="header">
@@ -17,5 +19,45 @@
         <div id="img-box">
             <img src="https://static.wixstatic.com/media/84770f_f2efbb54f66940908c631e76839cf65b~mv2.jpg/v1/fill/w_916,h_394,al_c,lg_1,q_85/84770f_f2efbb54f66940908c631e76839cf65b~mv2.webp" width="814px" height="350px">
         </div>
+        <div class="under-img-box">
+            <div id="address-box">
+                <h5>39 SHAANXI NAN LU</h5>
+                <h5>SHANGHAI,</h5>
+                <h5>200060</h5>
+            </div>
+            <div id="description-box"><p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p></div>
+        </div>
+        <div class="under-img-box">
+            <div id="opening-hours">
+                <h5>MONDAY - SUNDAY</h5>
+                <h5>10AM - 10PM</h5>
+            </div>
+            <div id="click-for-menu">
+                <h6>CLICK HERE TO SEE OUR MENU</h6>
+            </div>
+        </div>
+        <div class="bookings-bar">
+            <!-- <button class="dropdown-button">Date</button> -->
+            <input type="date" class="dropdown-button">
+            <!-- <button class="dropdown-button">Time</button> -->
+            <input type="time" class="dropdown-button">
+            <!-- <button class="dropdown-button">Party Size</button> -->
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">2 people</a>
+                  <a href="#">3 people</a>
+                  <a href="#">4 people</a>
+                  <a href="#">5 people</a>
+                  <a href="#">6 people</a>
+                  <a href="#">7 people</a>
+                  <a href="#">8 people</a>
+                  <a href="#">9 people</a>
+                  <a href="#">10 people</a>
+                </div>
+              </div>
+            <button class="book-button">Book a Table</button>
+        </div>
+
     </body>
 </html>
